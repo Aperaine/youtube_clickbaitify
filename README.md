@@ -7,7 +7,7 @@ If you want to add more images, fork this repository, add the images to the imag
 
 This is a fork of the Mrbeastify extension made for High Seas Hack Club
 # How to Install
-1. Download the .crx file from [Releases](https://github.com/Aperaine/youtube_clickbaitify/releases/tag/publish).
+1. Download the .crx file from [Releases](https://github.com/Aperaine/youtube_clickbaitify/releases/).
 2. Go to `chrome://extensions`.
 3. Drag the file in.
 4. If there is a safety warning, click the three dots and press "keep".
