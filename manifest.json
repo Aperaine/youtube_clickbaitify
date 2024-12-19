@@ -1,7 +1,7 @@
 {
 
 	"manifest_version": 2,
-	"name": "Youtube Clickbaityfy",
+	"name": "Youtube Clickbaitify",
 	"version": "1.0",
 
 	"description": "Adds clickbait to all YouTube thumbnails.",
