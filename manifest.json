@@ -1,21 +1,21 @@
 {
 
-	"manifest_version": 3,
-	"name": "Youtube Imagify",
+	"manifest_version": 2,
+	"name": "Youtube Clickbaityfy",
 	"version": "1.0",
 
-	"description": "Adds whatever you want to all YouTube thumbnails.",
+	"description": "Adds clickbait to all YouTube thumbnails.",
 
 	"icons": {
-		"48": "icons/Imagify48.png",
-		"96": "icons/Imagify96.png",
-		"128": "Imagify128.png"
+		"48": "icons/Clickbaitify48.png",
+		"96": "icons/Clickbaitify96.png",
+		"128": "Clickbaitify128.png"
 	},
 
 	"content_scripts": [
 		{
 			"matches": ["*://*.youtube.com/*"],
-			"js": ["imagify.js"]
+			"js": ["clickbaitify.js"]
 		}
 	],
 
@@ -23,6 +23,9 @@
 		"gecko": {
 			"id": "mrbeastify@derkrassehacker.de"
 		}
-	}
+	},
+
+	"web_accessible_resources": ["images/*"]
+    
 }
 
