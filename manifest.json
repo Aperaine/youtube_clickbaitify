@@ -1,8 +1,8 @@
 {
 
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Youtube Clickbaitify",
-	"version": "1.0",
+	"version": "1.1",
 
 	"description": "Adds clickbait to all YouTube thumbnails.",
 
@@ -25,7 +25,15 @@
 		}
 	},
 
-	"web_accessible_resources": ["images/*"]
+	"web_accessible_resources": [
+    {
+      "resources": [
+        "images/*"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }]
     
 }
 
