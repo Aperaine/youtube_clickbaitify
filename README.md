@@ -2,7 +2,5 @@
 
 # Youtube Clickbaitify
 
-This extension adds clickbait on top of all YouTube thumbnails.
-If you want to add more images, fork this repository, add the images to the images folder (with the same naming convention), and submit a pull request.
-
-This is a fork of the Mrbeastify extension made for High Seas and Browser Buddy Hack Club.
+This extension adds clickbait on top of all YouTube shorts and video thumbnails.
+If you want to add more images, fork this repository, add the images to the shorts or longs folder (with the same naming convention), and submit a pull request.
