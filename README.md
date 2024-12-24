@@ -1,4 +1,4 @@
-<img width="1160" alt="Screenshot" src="https://github.com/user-attachments/assets/bc819196-7d94-40fb-a6d7-43f457a3e4d7" />
+<img width="1160" alt="Screenshot" src="hhttps://github.com/Aperaine/youtube_clickbaitify/blob/main/Screenshot.png?raw=true" />
 
 # Youtube Clickbaitify
 

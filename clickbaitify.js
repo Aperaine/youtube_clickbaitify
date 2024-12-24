@@ -28,7 +28,7 @@ const mutationCallback = (mutations) => {
         shortsThumbnails.forEach(e => {
             if (e.classList.contains('clickbaitified')) return; // Skip processed elements
             const img = document.createElement('IMG');
-            img.src = chrome.runtime.getURL(`images/shorts/SClickbaitify${Math.floor(Math.random() * 4)}.png`);
+            img.src = chrome.runtime.getURL(`images/shorts/SClickbaitify${Math.floor(Math.random() * 9)}.png`);
             img.style.position = 'absolute';
             img.style.width = '100%';
             img.style.left = 0;
