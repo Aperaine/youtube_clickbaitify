@@ -9,7 +9,7 @@ const mutationCallback = (mutations) => {
         observerTimeout = null; // Reset throttle
 
         // Process video thumbnails
-        const videoThumbnails = document.querySelectorAll('ytd-thumbnail yt-image, .ytp-videowall-still-image');
+        const videoThumbnails = document.querySelectorAll('ytd-thumbnail yt-image, .ytp-videowall-still-image, yt-thumbnail-view-model');
         videoThumbnails.forEach(e => {
             if (e.classList.contains('clickbaitified')) return; // Skip processed elements
             const img = document.createElement('IMG');
