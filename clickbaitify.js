@@ -13,7 +13,7 @@ const mutationCallback = (mutations) => {
         videoThumbnails.forEach(e => {
             if (e.classList.contains('clickbaitified')) return; // Skip processed elements
             const img = document.createElement('IMG');
-            img.src = chrome.runtime.getURL(`images/longs/Clickbaitify${Math.floor(Math.random() * 16)}.png`);
+            img.src = chrome.runtime.getURL(`images/longs/Clickbaitify${Math.floor(Math.random() * 20)}.png`);
             img.style.position = 'absolute';
             img.style.width = '100%';
             img.style.left = 0;
@@ -28,7 +28,7 @@ const mutationCallback = (mutations) => {
         shortsThumbnails.forEach(e => {
             if (e.classList.contains('clickbaitified')) return; // Skip processed elements
             const img = document.createElement('IMG');
-            img.src = chrome.runtime.getURL(`images/shorts/SClickbaitify${Math.floor(Math.random() * 9)}.png`);
+            img.src = chrome.runtime.getURL(`images/shorts/SClickbaitify${Math.floor(Math.random() * 10)}.png`);
             img.style.position = 'absolute';
             img.style.width = '100%';
             img.style.left = 0;
