@@ -3,7 +3,7 @@ let observerTimeout = null;
 
 // Update these numbers if new images are added
 let longsAmount = 20;
-let shortsAmount = 10;
+let shortsAmount = 11;
 
 // Mutation observer callback
 const mutationCallback = (mutations) => {
