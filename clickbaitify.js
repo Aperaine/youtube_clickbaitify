@@ -13,7 +13,7 @@ const mutationCallback = (mutations) => {
         observerTimeout = null; // Reset throttle
 
         // Process video thumbnails
-        const videoThumbnails = document.querySelectorAll('ytd-thumbnail yt-image, .ytp-videowall-still-image, yt-thumbnail-view-model');
+        const videoThumbnails = document.querySelectorAll('yt-thumbnail-view-model[class*="ytThumbnailViewModelLarge"]');
         videoThumbnails.forEach(e => {
             if (e.classList.contains('clickbaitified')) return; // Skip processed elements
             const img = document.createElement('IMG');
@@ -28,7 +28,7 @@ const mutationCallback = (mutations) => {
         });
 
         // Process Shorts thumbnails
-        const shortsThumbnails = document.querySelectorAll('div[class*="shorts-thumbnail"], div.shortsLockupViewModelHostThumbnailContainer');
+        const shortsThumbnails = document.querySelectorAll('yt-thumbnail-view-model[class*="ytThumbnailViewModelMedium"], yt-thumbnail-view-model[class*="ytThumbnailViewModelSmall"]');
         shortsThumbnails.forEach(e => {
             if (e.classList.contains('clickbaitified')) return; // Skip processed elements
             const img = document.createElement('IMG');
